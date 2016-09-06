@@ -1,8 +1,13 @@
 # Safari Tabs to Pinboard
 
 Save all open Safari-Tabs to Pinboard and close them. Predefined Tags for
-RegExp-matched URLs can be used (ie. set tag 'article' for all Urls matching
+regex-matched URLs can be used (ie. set tag 'article' for all Urls matching
 .*newyorker\.com*.).
+
+## Status
+
+Working, matching at the moment doesn't support regex, only substrings (case
+insensitive).
 
 ## Plan
 
