@@ -1,0 +1,15 @@
+{
+    "apiEndpoint": "https://api.pinboard.in/v1/posts/add",
+    "pinboardToken": "username:pinboard_token",
+    "alwaysTags": [ "Tabs2Pinboard" ],
+    "shared": true,
+    "excludeHosts": [ "localhost", "array of hostnames or parts",
+        "of hostnames", "that shoud be excluded" ],
+    "hostMatching": {
+        "news.ycombinator.com": [ "hacker", "news" ],
+        "github.com": [ "github" ]
+    },
+    "titleMatching": {
+        "page title": [ "tags", "for", "page titles" ]
+    }
+}
